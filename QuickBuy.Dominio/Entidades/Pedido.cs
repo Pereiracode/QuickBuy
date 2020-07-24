@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuickBuy.Dominio.ObjetoDeValor;
+using System;
 using System.Collections.Generic;
 
 namespace QuickBuy.Dominio.Entidades
@@ -14,6 +15,9 @@ namespace QuickBuy.Dominio.Entidades
         public string Cidade { get; set; }
         public string EnderecoCompleto { get; set; }
         public int NumeroEndereco { get; set; }
+        public int FormaPagamentoId { get; set; }
+        public FormaPagamento FormaPagamento { get; set; }
+
 
         // Pedido deve ter pelo menos um item
         public ICollection<ItemPedido> ItensPedido { get; set; }
