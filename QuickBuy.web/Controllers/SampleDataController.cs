@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace QuickBuy.web.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[Controller]")]
     public class SampleDataController : Controller
     {
         private static string[] Summaries = new[]

@@ -19,7 +19,7 @@ namespace QuickBuy.Repositorio.Repositorios
             QuickBuyContexto.Set<TEntity>().Add(entity);
             QuickBuyContexto.SaveChanges();
         }
-
+        
         public void Atualizar(TEntity entity)
         {
             QuickBuyContexto.Set<TEntity>().Update(entity);
@@ -46,6 +46,6 @@ namespace QuickBuy.Repositorio.Repositorios
         public void Dispose()
         {
             QuickBuyContexto.Dispose();
-        }
+            }
     }
 }
