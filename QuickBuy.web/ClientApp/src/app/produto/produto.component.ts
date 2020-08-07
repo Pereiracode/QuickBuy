@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-  selector: "produto", // nome da tag que irá representar o componente
+  selector: "app-produto", // nome da tag que irá representar o componente
   template: "<html><body>{{ obterNome() }}</body></html>"
 })
 
