@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 
 export class LoginComponent {
+  public email = "mateus@gmail.com";
+
   entrar() {
     alert ("Entrar no sistema");
   }
